@@ -6,11 +6,12 @@ bilingue FR/EN piloté par deux fichiers JSON.
 ## Structure du projet
 
 ```
-index.html          -> squelette des 3 écrans (Welcome / Dashboard / Section)
+index.html           -> squelette des 3 écrans (Welcome / Dashboard / Section)
 css/style.css        -> tout le style (couleurs, cadre, LED, chanfreins, responsive)
 js/script.js         -> navigation, chargement des langues, rendu des onglets
 lang/en.json         -> tout le contenu texte en anglais
 lang/fr.json         -> tout le contenu texte en français
+assets/images/       -> tout les documents et images
 ```
 
 Aucune donnée personnelle n'est écrite en dur dans le HTML : **tout le texte vient des
