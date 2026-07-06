@@ -516,7 +516,7 @@ a:focus-visible, button:focus-visible{
 }
 .rotate-icon{ width:72px; height:72px; color:var(--c-accent-blue); }
 .rotate-icon .phone-shape{ fill:none; stroke:currentColor; stroke-width:3; animation:rotatePhone 2.4s ease-in-out infinite; transform-origin:50px 50px; }
-.rotate-icon .phone-btn{ fill:currentColor; }
+.rotate-icon .phone-btn{ fill:currentColor; animation:rotatePhone 2.4s ease-in-out infinite; transform-origin:50px 50px; }
 @keyframes rotatePhone{
   0%, 15%{ transform:rotate(0deg); }
   45%, 60%{ transform:rotate(-90deg); }

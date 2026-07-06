@@ -50,10 +50,10 @@
         },
         {
           "id": "education",
-          "label": "Education",
+          "label": "Formation",
           "image": "assets/images/Education.jpg",
-          "eyebrow": "MODULE // Education",
-          "heading": "Education",
+          "eyebrow": "MODULE // FORMATION",
+          "heading": "Formation",
           "text": "Ingénieur diplômé avec un parcours international, forgé par plusieurs échanges académiques et une solide culture scientifique.",
           "bullets": [
             "Formation : [Diplôme d'ingénieur (équivalent master), École Centrale d'Électronique de Paris, 2020 - 2025]",
