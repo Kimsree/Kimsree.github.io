@@ -68,7 +68,9 @@
           "text": "Profil polyvalent, alliant expertise technique, capacité d'apprentissage rapide et adaptabilité dans des environnements multidisciplinaires.",
           "bullets": [
             "Langages : [Français (langue maternelle), Tamil (langue maternelle), Anglais (C2, TOEIC 980/990), Japonais (A1), Espagnol (A1)]",
-            "Langages de Programmation : [Python, Java, C/C++, SQL, R, MATLAB/Octave, Dart/Flutter, SAS, VHDL]"
+            "Langages de Programmation : [Python, Java, C/C++, SQL, R, MATLAB/Octave, Dart/Flutter, SAS, VHDL]",
+            "Bioinformatique : [Séquençage d'ARN Unicellulaire, Transcriptomique, Profilage de l'Expression Génique, Analyse de données Multi-Omiques, Analyse du Microenvironnement Tumoral, Annotation Cellulaire, Communication Intercellulaire, Inférence de Trajectoires]"
+            
           ]
         },
         {
