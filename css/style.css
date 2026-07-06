@@ -203,7 +203,7 @@ a:focus-visible, button:focus-visible{
 .back-btn .back-icon{ width:14px; height:14px; }
 .back-btn:hover{ border-color:var(--c-accent-blue); background:rgba(30,45,60,.85); }
 .back-btn:active{ transform:scale(.96); }
-
+.back-btn[hidden]{ display:none !important;}
 /* generic view container: JS toggles .active */
 .view{
     position:absolute;
