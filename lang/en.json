@@ -9,10 +9,13 @@
     "rotateTitle": "Rotate your device",
     "rotateBody": "This terminal requires landscape mode. Please rotate your device.",
     "bootLines": [
-      "> Initializing E.F.S.F. terminal...",
-      "> Loading operator profile...",
+      "> Initializing Sreevatsa Research terminal...",
+      "> Loading research profile...",
+      "> Bioinformatics... OK",
+      "> Computational Biology... OK",
+      "> Machine Learning... OK",
       "> Establishing uplink... OK",
-      "> Welcome, Operator."
+      "> Welcome, Researcher Engineer."
     ],
     "chooseLang": "Select interface language",
     "leds": ["PWR", "NET", "SYS"],
