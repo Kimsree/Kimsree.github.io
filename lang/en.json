@@ -37,7 +37,7 @@
         {
           "id": "bio",
           "label": "Bio",
-          "image": "assets/images/profilePicture.jpeg",
+          "image": "/assets/images/profilePicture.jpeg",
           "eyebrow": "MODULE // BIO",
           "heading": "Biography — Sreevatsa RAVIKANTH",
           "text": "French Engineer specializing in Bioinformatics and Artificial Intelligence.",
