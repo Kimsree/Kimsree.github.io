@@ -181,10 +181,7 @@
     document.querySelectorAll("#sectionTabs .tab-btn").forEach((b) => b.classList.remove("active"));
     if (btnEl) btnEl.classList.add("active");
 
-    const img = document.getElementById("sectionImage");
-    img.src = tab.image || "";
-    img.style.display = tab.image ? "block" : "none";
-
+    
     $("tabEyebrow").textContent = tab.eyebrow || "";
     $("tabHeading").textContent = tab.heading || tab.label;
     $("tabText").textContent = tab.text || "";
