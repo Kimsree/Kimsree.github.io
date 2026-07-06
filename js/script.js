@@ -82,24 +82,45 @@
   /* ---------------------------------------------------------
      Welcome / boot sequence
      --------------------------------------------------------- */
-  function playBoot() {
+  async function typeLine(element, text, speed = 28) {
+    element.textContent = "";
+
+    for (const char of text) {
+      element.textContent += char;
+
+      // Vitesse légèrement aléatoire pour un effet plus naturel
+      const delay = speed + Math.random() * 20;
+
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+  }
+  async function playBoot() {
     const container = $("bootLines");
     container.innerHTML = "";
+
     const lines = state.data.ui.bootLines;
     const langChoice = $("langChoice");
+
     langChoice.classList.remove("ready");
 
-    lines.forEach((line, i) => {
+    for (let i = 0; i < lines.length; i++) {
+
       const p = document.createElement("p");
       p.className = "boot-line";
-      p.textContent = line;
-      p.style.animationDelay = (i * 0.45) + "s";
-      if (i === lines.length - 1) p.classList.add("cursor");
-      container.appendChild(p);
-    });
 
-    const totalDelay = lines.length * 0.45 * 1000 + 300;
-    window.setTimeout(() => langChoice.classList.add("ready"), totalDelay);
+      if (i === lines.length - 1) {
+        p.classList.add("cursor");
+      }
+
+      container.appendChild(p);
+
+      await typeLine(p, lines[i]);
+
+      // Pause entre deux lignes
+      await new Promise(resolve => setTimeout(resolve, 250));
+    }
+
+    langChoice.classList.add("ready");
   }
 
   /* ---------------------------------------------------------
@@ -198,8 +219,8 @@
     // Pre-load English so the boot sequence + LED labels have text
     // even before the operator picks a language.
     await loadLanguage("en");
-    playBoot();
     showView("welcome");
+    await playBoot();
   }
 
   init();
