@@ -10,11 +10,9 @@
     "rotateBody": "This terminal requires landscape mode. Please rotate your device.",
     "bootLines": [
       "> Initializing Sreevatsa Research terminal...",
-      "> Loading research profile...",
       "> Bioinformatics... OK",
       "> Computational Biology... OK",
       "> Machine Learning... OK",
-      "> Establishing uplink... OK",
       "> Welcome, Researcher Engineer."
     ],
     "chooseLang": "Select interface language",

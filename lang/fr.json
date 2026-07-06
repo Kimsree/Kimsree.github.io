@@ -10,11 +10,9 @@
     "rotateBody": "Ce terminal nécessite le mode paysage. Veuillez tourner votre appareil.",
     "bootLines": [
       "> Initialisation du terminal de recherche Sreevatsa...",
-      "> Chargement du profil de recherche...",
       "> Bio-informatique... OK",
       "> Biologie computationnelle... OK",
       "> Apprentissage automatique... OK",
-      "> Établissement de la liaison... OK",
       "> Bienvenue, ingénieur orienté recherche."
     ],
     "chooseLang": "Choisissez la langue de l'interface",
