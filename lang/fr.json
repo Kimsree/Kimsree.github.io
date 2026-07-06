@@ -48,13 +48,12 @@
           ]
         },
         {
-          "id": "cv",
-          "label": "CV",
-          "eyebrow": "MODULE // CV",
-          "heading": "Curriculum Vitæ",
+          "id": "education",
+          "label": "Education",
+          "eyebrow": "MODULE // Education",
+          "heading": "Education",
           "text": "Résumez votre parcours académique et professionnel en quelques lignes, puis ajoutez le lien vers le document complet.",
           "bullets": [
-            "Télécharger le CV complet : [lien PDF]",
             "Formation : [Diplôme, Institution, Année]",
             "Formation : [Diplôme, Institution, Année]",
             "Certification clé : [Nom, Année]"
