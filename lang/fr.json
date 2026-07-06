@@ -51,13 +51,15 @@
         {
           "id": "education",
           "label": "Education",
+          "image": "assets/images/Education.jpg",
           "eyebrow": "MODULE // Education",
           "heading": "Education",
           "text": "Ingénieur diplômé avec un parcours international, forgé par plusieurs échanges académiques et une solide culture scientifique.",
           "bullets": [
             "Formation : [Diplôme d'ingénieur (équivalent master), École Centrale d'Électronique de Paris, 2020 - 2025]",
             "Échanges internationaux : [Université de Vérone (2024), OMNES London School (2022)]",
-            "Formation : [Baccalauréat scientifique, spécialité Mathématiques et Sciences de la Terre et de la Vie (SVT), Lycée Teilhard de Chardin, 2017 - 2020]"
+            "Formation : [Baccalauréat scientifique, spécialité Mathématiques et Sciences de la Terre et de la Vie (SVT), Lycée Teilhard de Chardin, 2017 - 2020]",
+            "Mobilité : Titulaire du permis B"
           ]
         },
         {
@@ -76,7 +78,6 @@
             "Développement web : [HTML, CSS, JavaScript, PHP, MySQL, WordPress, Hostinger]",
             "Gestion de projet : [Agile / Prise de décision, Conseil, Marketing, Communication]",
             "Systèmes embarqués : [Systèmes Linux embarqués, Arduino, VHDL, Proteus, Quartus, Cisco Packet Tracer, Wireshark]"
-            
           ]
         },
         {
@@ -84,11 +85,23 @@
           "label": "Distinctions",
           "eyebrow": "MODULE // DISTINCTIONS",
           "heading": "Prix & Distinctions",
-          "text": "Mettez en avant les récompenses, bourses ou résultats de concours pertinents pour votre domaine.",
+          "text": "Reconnu pour avoir un esprit de compétition, une réflexion analytique et une excellence scientifique, comme en témoignent les résultats exceptionnels obtenus lors de concours universitaires.",
           "bullets": [
-            "[Nom du prix] — [Organisme, Année]",
-            "[Nom de la bourse] — [Institution, Année]",
-            "[Résultat de concours] — [Événement, Année]"
+            "[1re place sur 567 – Meilleure Poster Scientifique, LyRIDS, 2024]",
+            "[2e place sur 38 – Hackathon Inetum, Inetum, 2024] ",
+            "[4e place sur 300 – Compétition de robotique ECE Cup, ECE, 2022]"
+          ]
+        },
+        {
+          "id": "certifications",
+          "label": "Certifications",
+          "eyebrow": "MODULE // CERTIFICATIONS",
+          "heading": "Certifications",
+          "text": "Highlight recognitions, scholarships, or competition results relevant to your field.",
+          "bullets": [
+            "[Les bonnes pratiques cliniques de l'ICH E6(R3), The Global Health Network, 2026",
+            "[ECE Examen Python, Liora, 2023]",
+            "[MOOC Gestion de Projet, Centrale Lille, 2023]"
           ]
         }
       ]

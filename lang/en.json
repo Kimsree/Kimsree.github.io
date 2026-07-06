@@ -45,12 +45,14 @@
             "Current role / status: [Operational]",
             "Affiliation: [Nothing]",
             "Location: [Paris, Île-de-France]",
-            "Highest Education Level: [MEng, École Centrale d'Électronique Paris, 2020 - 2025]"
+            "Highest Education Level: [MEng, École Centrale d'Électronique Paris, 2020 - 2025]",
+            "Driving licence: Category B (Europe)"
           ]
         },
         {
           "id": "education",
           "label": "Education",
+          "image": "assets/images/Education.jpg",
           "eyebrow": "MODULE // Education",
           "heading": "Education",
           "text": "A qualified engineer with an international background, shaped by several academic exchange programmes and a strong scientific grounding.",
@@ -83,11 +85,23 @@
           "label": "Awards",
           "eyebrow": "MODULE // AWARDS",
           "heading": "Awards & Distinctions",
+          "text": "Recognized for a competitive mindset, analytical thinking, and scientific excellence, as reflected by outstanding results in institutional competitions.",
+          "bullets": [
+            "[1st place out of 567 –  Best Scientific Poster, LyRIDS, 2024]",
+            "[2nd place out of 38 – Inetum Hackathon, Inetum, 2024]",
+            "[4th place out of 300 – ECE Cup Robotics Competition, ECE, 2022]"
+          ]
+        },
+        {
+          "id": "certifications",
+          "label": "Certifications",
+          "eyebrow": "MODULE // CERTIFICATIONS",
+          "heading": "Certifications",
           "text": "Highlight recognitions, scholarships, or competition results relevant to your field.",
           "bullets": [
-            "[Award name] — [Awarding body, Year]",
-            "[Scholarship name] — [Institution, Year]",
-            "[Competition result] — [Event, Year]"
+            "[ICH E6(R3) Good Clinical Practice, The Global Health Network, 2026",
+            "[ECE Python Exam, Liora, 2023]",
+            "[Project Management MOOC, Centrale Lille, 2023]"
           ]
         }
       ]
