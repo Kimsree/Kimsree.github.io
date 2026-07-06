@@ -45,7 +45,7 @@
             "Current role / status: [Operational]",
             "Affiliation: [Nothing]",
             "Location: [Paris, Île-de-France]",
-            "Highest Education Level: [MEng, École Centrale d’Électronique Paris, 2020 - 2025]"
+            "Highest Education Level: [MEng, École Centrale d'Électronique Paris, 2020 - 2025]"
           ]
         },
         {
@@ -53,11 +53,11 @@
           "label": "Education",
           "eyebrow": "MODULE // Education",
           "heading": "Education",
-          "text": "Summarize your academic and professional path in a few lines, then link the full document below.",
+          "text": "A qualified engineer with an international background, shaped by several academic exchange programmes and a strong scientific grounding.",
           "bullets": [
-            "Education: [Degree, Institution, Year]",
-            "Education: [Degree, Institution, Year]",
-            "Key certification: [Name, Year]"
+            "Diploma: [Engineering Degree (MSc equivalent), École Centrale d'Électronique Paris, 2020 - 2025]",
+            "International exchanges: [University of Verona (2024), OMNES London School (2022)]",
+            "Diploma: [Scientific Baccalaureate Specialization Mathematics & Earth and Life Sciences (SVT), Lycée Teilhard de Chardin, 2017 - 2020]"
           ]
         },
         {
@@ -65,13 +65,17 @@
           "label": "Skills",
           "eyebrow": "MODULE // SKILLS",
           "heading": "Technical Skills",
-          "text": "List your core competencies grouped by category so recruiters can scan them quickly.",
+          "text": "A versatile profile, combining technical expertise, the ability to learn quickly and adaptability in multidisciplinary environments.",
           "bullets": [
-            "Languages: [Python, C++, JavaScript, ...]",
-            "Tools & frameworks: [ROS, PyTorch, React, ...]",
-            "Methods: [CAD, control theory, statistics, ...]",
-            "Soft skills: [project management, mentoring, ...]",
-            "Languages: [English, Français, ...]"
+            "Languages: [French (native), Tamil (native), English (C2, TOEIC 980/990), Japanese (A1), Spanish (A1)]",
+            "Programming Languages: [Python, Java, C/C++, SQL, R, MATLAB/Octave/Scilab, Dart/Flutter, SAS, VHDL]",
+            "Bioinformatics: [Single-cell RNA-seq, Transcriptomics, Gene Expression Profiling, Multi-omics Data Analysis, Tumor Microenvironment Analysis, Cell Annotation, Cell-Cell Communication, Trajectory Inference]",
+            "Data Science & AI: [Machine Learning, Deep Learning, Supervised Learning, Image Processing, Reinforcement Learning, Bayesian Optimization, Signal Processing, Graph Theory]",
+            "Clinical & Research: [Good Clinical Practice (ICH E6 R2), Compliance Regulations, Intellectual Property]",
+            "3D Modelling: [SolidWorks, OnShape, ThinkerCAD, UltiMaker Cura]",
+            "Web Development: [HTML, CSS, JavaScript, PHP, Mysql, Wordpress, Hostinger]",
+            "Project Management: [Agile / Decisioning, Consulting, Marketing, Communication]",
+            "Embedded Systems: [Embedded Linux Systems, Arduino, VHDL, Proteus, Quartus, Cisco Packet Tracer, Wireshark]"
           ]
         },
         {
