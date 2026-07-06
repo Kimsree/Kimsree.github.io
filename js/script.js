@@ -82,7 +82,7 @@
   /* ---------------------------------------------------------
      Welcome / boot sequence
      --------------------------------------------------------- */
-  async function typeLine(element, text, speed = 150) {
+  async function typeLine(element, text, speed = 10) {
     element.textContent = "";
 
     for (const char of text) {
