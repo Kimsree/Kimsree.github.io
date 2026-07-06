@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "siteTitle": "E.F.S.F. Personal Terminal",
+    "operator": "OPERATOR // [YOUR NAME]",
+    "docTitle": "Personal Terminal — [Your Name]"
+  },
+  "ui": {
+    "back": "Back",
+    "rotateTitle": "Rotate your device",
+    "rotateBody": "This terminal requires landscape mode. Please rotate your device.",
+    "bootLines": [
+      "> Initializing E.F.S.F. terminal...",
+      "> Loading operator profile...",
+      "> Establishing uplink... OK",
+      "> Welcome, Operator."
+    ],
+    "chooseLang": "Select interface language",
+    "leds": ["PWR", "NET", "SYS"],
+    "footerTag": "TERMINAL MK.II // ALL SYSTEMS NOMINAL"
+  },
+  "dashboard": {
+    "eyebrow": "MAIN DASHBOARD",
+    "title": "Select a module",
+    "tiles": [
+      { "id": "profile",      "label": "Profile" },
+      { "id": "research",     "label": "Research" },
+      { "id": "projects",     "label": "Projects" },
+      { "id": "publications", "label": "Publications" },
+      { "id": "experience",   "label": "Work Experience" },
+      { "id": "contact",      "label": "Contact" }
+    ]
+  },
+  "sections": {
+    "profile": {
+      "title": "Profile",
+      "tabs": [
+        {
+          "id": "bio",
+          "label": "Bio",
+          "eyebrow": "MODULE // BIO",
+          "heading": "Biography",
+          "text": "Short introduction goes here — who you are, what you do, and what drives your work. Two or three sentences is usually enough on a terminal screen like this one.",
+          "bullets": [
+            "Current role / status: [e.g. PhD Candidate, Robotics Lab]",
+            "Institution / affiliation: [Your institution]",
+            "Location: [City, Country]",
+            "Languages: [English, Français, ...]"
+          ]
+        },
+        {
+          "id": "cv",
+          "label": "CV",
+          "eyebrow": "MODULE // CV",
+          "heading": "Curriculum Vitae",
+          "text": "Summarize your academic and professional path in a few lines, then link the full document below.",
+          "bullets": [
+            "Download full CV: [link to PDF]",
+            "Education: [Degree, Institution, Year]",
+            "Education: [Degree, Institution, Year]",
+            "Key certification: [Name, Year]"
+          ]
+        },
+        {
+          "id": "skills",
+          "label": "Skills",
+          "eyebrow": "MODULE // SKILLS",
+          "heading": "Technical Skills",
+          "text": "List your core competencies grouped by category so recruiters can scan them quickly.",
+          "bullets": [
+            "Languages: [Python, C++, JavaScript, ...]",
+            "Tools & frameworks: [ROS, PyTorch, React, ...]",
+            "Methods: [CAD, control theory, statistics, ...]",
+            "Soft skills: [project management, mentoring, ...]"
+          ]
+        },
+        {
+          "id": "awards",
+          "label": "Awards",
+          "eyebrow": "MODULE // AWARDS",
+          "heading": "Awards & Distinctions",
+          "text": "Highlight recognitions, scholarships, or competition results relevant to your field.",
+          "bullets": [
+            "[Award name] — [Awarding body, Year]",
+            "[Scholarship name] — [Institution, Year]",
+            "[Competition result] — [Event, Year]"
+          ]
+        }
+      ]
+    },
+    "research": {
+      "title": "Research",
+      "tabs": [
+        {
+          "id": "interests",
+          "label": "Research Interests",
+          "eyebrow": "MODULE // INTERESTS",
+          "heading": "Research Interests",
+          "text": "Describe the broad questions and themes that guide your research program.",
+          "bullets": [
+            "[Research theme 1 — one line description]",
+            "[Research theme 2 — one line description]",
+            "[Research theme 3 — one line description]"
+          ]
+        },
+        {
+          "id": "currentProjects",
+          "label": "Current Projects",
+          "eyebrow": "MODULE // ACTIVE",
+          "heading": "Current Research Projects",
+          "text": "List what you are actively working on right now, with a short status for each.",
+          "bullets": [
+            "[Project name] — status: ongoing, [start year]–present",
+            "[Project name] — status: data collection phase",
+            "[Project name] — status: under review"
+          ]
+        },
+        {
+          "id": "collaborations",
+          "label": "Collaborations",
+          "eyebrow": "MODULE // NETWORK",
+          "heading": "Collaborations",
+          "text": "Mention labs, companies, or researchers you regularly collaborate with.",
+          "bullets": [
+            "[Lab / institution name] — [nature of collaboration]",
+            "[Lab / institution name] — [nature of collaboration]",
+            "[Industry partner] — [nature of collaboration]"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "tabs": [
+        {
+          "id": "projectA",
+          "label": "Project A",
+          "eyebrow": "PROJECT // A",
+          "heading": "[Project A name]",
+          "text": "One paragraph describing the goal, your role, and the outcome of this project.",
+          "bullets": [
+            "Role: [your role]",
+            "Stack / tools: [tools used]",
+            "Status: [ongoing / completed, year]",
+            "Link: [repo or demo URL]"
+          ]
+        },
+        {
+          "id": "projectB",
+          "label": "Project B",
+          "eyebrow": "PROJECT // B",
+          "heading": "[Project B name]",
+          "text": "One paragraph describing the goal, your role, and the outcome of this project.",
+          "bullets": [
+            "Role: [your role]",
+            "Stack / tools: [tools used]",
+            "Status: [ongoing / completed, year]",
+            "Link: [repo or demo URL]"
+          ]
+        },
+        {
+          "id": "projectC",
+          "label": "Project C",
+          "eyebrow": "PROJECT // C",
+          "heading": "[Project C name]",
+          "text": "One paragraph describing the goal, your role, and the outcome of this project.",
+          "bullets": [
+            "Role: [your role]",
+            "Stack / tools: [tools used]",
+            "Status: [ongoing / completed, year]",
+            "Link: [repo or demo URL]"
+          ]
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "tabs": [
+        {
+          "id": "journal",
+          "label": "Journal Papers",
+          "eyebrow": "RECORD // JOURNAL",
+          "heading": "Journal Papers",
+          "text": "List your peer-reviewed journal articles, most recent first.",
+          "bullets": [
+            "[Authors]. \"[Title]\". [Journal], [Year]. [DOI/link]",
+            "[Authors]. \"[Title]\". [Journal], [Year]. [DOI/link]"
+          ]
+        },
+        {
+          "id": "conferences",
+          "label": "Conferences",
+          "eyebrow": "RECORD // CONFERENCE",
+          "heading": "Conference Papers",
+          "text": "List conference proceedings and talks.",
+          "bullets": [
+            "[Authors]. \"[Title]\". [Conference], [Year]. [DOI/link]",
+            "[Authors]. \"[Title]\". [Conference], [Year]. [DOI/link]"
+          ]
+        },
+        {
+          "id": "posters",
+          "label": "Posters",
+          "eyebrow": "RECORD // POSTER",
+          "heading": "Posters",
+          "text": "List poster presentations at conferences or workshops.",
+          "bullets": [
+            "[Title] — [Event], [Year]",
+            "[Title] — [Event], [Year]"
+          ]
+        },
+        {
+          "id": "preprints",
+          "label": "Preprints",
+          "eyebrow": "RECORD // PREPRINT",
+          "heading": "Preprints",
+          "text": "List preprints not yet peer-reviewed.",
+          "bullets": [
+            "[Authors]. \"[Title]\". [Repository], [Year]. [link]",
+            "[Authors]. \"[Title]\". [Repository], [Year]. [link]"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Work Experience",
+      "tabs": [
+        {
+          "id": "timeline",
+          "label": "Timeline",
+          "eyebrow": "MODULE // CAREER LOG",
+          "heading": "Work Experience",
+          "text": "List your positions from most recent to oldest, with dates and a short description of your responsibilities.",
+          "bullets": [
+            "[Job title] — [Company], [Year–Year]: [one line description]",
+            "[Job title] — [Company], [Year–Year]: [one line description]",
+            "[Job title] — [Company], [Year–Year]: [one line description]"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "tabs": [
+        {
+          "id": "main",
+          "label": "Get in Touch",
+          "eyebrow": "MODULE // UPLINK",
+          "heading": "Contact",
+          "text": "Open a channel — the best ways to reach the operator are listed below.",
+          "bullets": [
+            "Email: [you@example.com]",
+            "LinkedIn: [linkedin.com/in/yourname]",
+            "GitHub: [github.com/yourname]",
+            "Google Scholar: [link]"
+          ]
+        }
+      ]
+    }
+  }
+}

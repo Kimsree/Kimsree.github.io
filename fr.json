@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "siteTitle": "Terminal Personnel E.F.S.F.",
+    "operator": "OPÉRATEUR // [VOTRE NOM]",
+    "docTitle": "Terminal Personnel — [Votre nom]"
+  },
+  "ui": {
+    "back": "Retour",
+    "rotateTitle": "Tournez votre appareil",
+    "rotateBody": "Ce terminal nécessite le mode paysage. Veuillez tourner votre appareil.",
+    "bootLines": [
+      "> Initialisation du terminal E.F.S.F...",
+      "> Chargement du profil opérateur...",
+      "> Établissement de la liaison... OK",
+      "> Bienvenue, Opérateur."
+    ],
+    "chooseLang": "Choisissez la langue de l'interface",
+    "leds": ["PWR", "NET", "SYS"],
+    "footerTag": "TERMINAL MK.II // SYSTÈMES NOMINAUX"
+  },
+  "dashboard": {
+    "eyebrow": "TABLEAU DE BORD",
+    "title": "Sélectionnez un module",
+    "tiles": [
+      { "id": "profile",      "label": "Profil" },
+      { "id": "research",     "label": "Recherche" },
+      { "id": "projects",     "label": "Projets" },
+      { "id": "publications", "label": "Publications" },
+      { "id": "experience",   "label": "Expériences" },
+      { "id": "contact",      "label": "Contact" }
+    ]
+  },
+  "sections": {
+    "profile": {
+      "title": "Profil",
+      "tabs": [
+        {
+          "id": "bio",
+          "label": "Bio",
+          "eyebrow": "MODULE // BIO",
+          "heading": "Biographie",
+          "text": "Courte présentation : qui vous êtes, ce que vous faites, ce qui motive votre travail. Deux ou trois phrases suffisent en général sur un écran comme celui-ci.",
+          "bullets": [
+            "Statut actuel : [ex. Doctorant, Labo Robotique]",
+            "Institution / affiliation : [votre institution]",
+            "Localisation : [Ville, Pays]",
+            "Langues : [Français, English, ...]"
+          ]
+        },
+        {
+          "id": "cv",
+          "label": "CV",
+          "eyebrow": "MODULE // CV",
+          "heading": "Curriculum Vitæ",
+          "text": "Résumez votre parcours académique et professionnel en quelques lignes, puis ajoutez le lien vers le document complet.",
+          "bullets": [
+            "Télécharger le CV complet : [lien PDF]",
+            "Formation : [Diplôme, Institution, Année]",
+            "Formation : [Diplôme, Institution, Année]",
+            "Certification clé : [Nom, Année]"
+          ]
+        },
+        {
+          "id": "skills",
+          "label": "Compétences",
+          "eyebrow": "MODULE // COMPÉTENCES",
+          "heading": "Compétences Techniques",
+          "text": "Listez vos compétences principales regroupées par catégorie pour une lecture rapide.",
+          "bullets": [
+            "Langages : [Python, C++, JavaScript, ...]",
+            "Outils & frameworks : [ROS, PyTorch, React, ...]",
+            "Méthodes : [CAO, automatique, statistiques, ...]",
+            "Savoir-être : [gestion de projet, mentorat, ...]"
+          ]
+        },
+        {
+          "id": "awards",
+          "label": "Distinctions",
+          "eyebrow": "MODULE // DISTINCTIONS",
+          "heading": "Prix & Distinctions",
+          "text": "Mettez en avant les récompenses, bourses ou résultats de concours pertinents pour votre domaine.",
+          "bullets": [
+            "[Nom du prix] — [Organisme, Année]",
+            "[Nom de la bourse] — [Institution, Année]",
+            "[Résultat de concours] — [Événement, Année]"
+          ]
+        }
+      ]
+    },
+    "research": {
+      "title": "Recherche",
+      "tabs": [
+        {
+          "id": "interests",
+          "label": "Intérêts de Recherche",
+          "eyebrow": "MODULE // INTÉRÊTS",
+          "heading": "Intérêts de Recherche",
+          "text": "Décrivez les grandes questions et thématiques qui guident votre programme de recherche.",
+          "bullets": [
+            "[Thème de recherche 1 — description en une ligne]",
+            "[Thème de recherche 2 — description en une ligne]",
+            "[Thème de recherche 3 — description en une ligne]"
+          ]
+        },
+        {
+          "id": "currentProjects",
+          "label": "Projets en Cours",
+          "eyebrow": "MODULE // ACTIFS",
+          "heading": "Projets de Recherche en Cours",
+          "text": "Listez ce sur quoi vous travaillez actuellement, avec un statut court pour chacun.",
+          "bullets": [
+            "[Nom du projet] — statut : en cours, [année de début]–présent",
+            "[Nom du projet] — statut : phase de collecte de données",
+            "[Nom du projet] — statut : en relecture"
+          ]
+        },
+        {
+          "id": "collaborations",
+          "label": "Collaborations",
+          "eyebrow": "MODULE // RÉSEAU",
+          "heading": "Collaborations",
+          "text": "Mentionnez les laboratoires, entreprises ou chercheurs avec qui vous collaborez régulièrement.",
+          "bullets": [
+            "[Nom du labo / institution] — [nature de la collaboration]",
+            "[Nom du labo / institution] — [nature de la collaboration]",
+            "[Partenaire industriel] — [nature de la collaboration]"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projets",
+      "tabs": [
+        {
+          "id": "projectA",
+          "label": "Projet A",
+          "eyebrow": "PROJET // A",
+          "heading": "[Nom du Projet A]",
+          "text": "Un paragraphe décrivant l'objectif, votre rôle et le résultat de ce projet.",
+          "bullets": [
+            "Rôle : [votre rôle]",
+            "Stack / outils : [outils utilisés]",
+            "Statut : [en cours / terminé, année]",
+            "Lien : [URL du dépôt ou démo]"
+          ]
+        },
+        {
+          "id": "projectB",
+          "label": "Projet B",
+          "eyebrow": "PROJET // B",
+          "heading": "[Nom du Projet B]",
+          "text": "Un paragraphe décrivant l'objectif, votre rôle et le résultat de ce projet.",
+          "bullets": [
+            "Rôle : [votre rôle]",
+            "Stack / outils : [outils utilisés]",
+            "Statut : [en cours / terminé, année]",
+            "Lien : [URL du dépôt ou démo]"
+          ]
+        },
+        {
+          "id": "projectC",
+          "label": "Projet C",
+          "eyebrow": "PROJET // C",
+          "heading": "[Nom du Projet C]",
+          "text": "Un paragraphe décrivant l'objectif, votre rôle et le résultat de ce projet.",
+          "bullets": [
+            "Rôle : [votre rôle]",
+            "Stack / outils : [outils utilisés]",
+            "Statut : [en cours / terminé, année]",
+            "Lien : [URL du dépôt ou démo]"
+          ]
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "tabs": [
+        {
+          "id": "journal",
+          "label": "Articles de Revue",
+          "eyebrow": "REGISTRE // REVUE",
+          "heading": "Articles de Revue",
+          "text": "Listez vos articles publiés dans des revues à comité de lecture, du plus récent au plus ancien.",
+          "bullets": [
+            "[Auteurs]. « [Titre] ». [Revue], [Année]. [DOI/lien]",
+            "[Auteurs]. « [Titre] ». [Revue], [Année]. [DOI/lien]"
+          ]
+        },
+        {
+          "id": "conferences",
+          "label": "Conférences",
+          "eyebrow": "REGISTRE // CONFÉRENCE",
+          "heading": "Actes de Conférence",
+          "text": "Listez vos actes de conférence et présentations.",
+          "bullets": [
+            "[Auteurs]. « [Titre] ». [Conférence], [Année]. [DOI/lien]",
+            "[Auteurs]. « [Titre] ». [Conférence], [Année]. [DOI/lien]"
+          ]
+        },
+        {
+          "id": "posters",
+          "label": "Posters",
+          "eyebrow": "REGISTRE // POSTER",
+          "heading": "Posters",
+          "text": "Listez vos présentations par poster lors de conférences ou d'ateliers.",
+          "bullets": [
+            "[Titre] — [Événement], [Année]",
+            "[Titre] — [Événement], [Année]"
+          ]
+        },
+        {
+          "id": "preprints",
+          "label": "Prépublications",
+          "eyebrow": "REGISTRE // PRÉPUBLICATION",
+          "heading": "Prépublications",
+          "text": "Listez vos prépublications non encore relues par les pairs.",
+          "bullets": [
+            "[Auteurs]. « [Titre] ». [Dépôt], [Année]. [lien]",
+            "[Auteurs]. « [Titre] ». [Dépôt], [Année]. [lien]"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "title": "Expériences",
+      "tabs": [
+        {
+          "id": "timeline",
+          "label": "Chronologie",
+          "eyebrow": "MODULE // JOURNAL DE CARRIÈRE",
+          "heading": "Expériences Professionnelles",
+          "text": "Listez vos postes du plus récent au plus ancien, avec les dates et une courte description de vos responsabilités.",
+          "bullets": [
+            "[Intitulé du poste] — [Entreprise], [Année–Année] : [description en une ligne]",
+            "[Intitulé du poste] — [Entreprise], [Année–Année] : [description en une ligne]",
+            "[Intitulé du poste] — [Entreprise], [Année–Année] : [description en une ligne]"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "tabs": [
+        {
+          "id": "main",
+          "label": "Contactez-moi",
+          "eyebrow": "MODULE // LIAISON",
+          "heading": "Contact",
+          "text": "Ouvrez un canal — les meilleurs moyens de joindre l'opérateur sont listés ci-dessous.",
+          "bullets": [
+            "Email : [vous@exemple.com]",
+            "LinkedIn : [linkedin.com/in/votrenom]",
+            "GitHub : [github.com/votrenom]",
+            "Google Scholar : [lien]"
+          ]
+        }
+      ]
+    }
+  }
+}
