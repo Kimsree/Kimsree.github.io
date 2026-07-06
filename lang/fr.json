@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteTitle": "Terminal Personnel E.F.S.F.",
-    "operator": "OPÉRATEUR // [VOTRE NOM]",
-    "docTitle": "Terminal Personnel — [Votre nom]"
+    "operator": "OPÉRATEUR // SREEVATSA RAVIKANTH",
+    "docTitle": "Terminal Personnel — [Sreevatsa RAVIKANTH]"
   },
   "ui": {
     "back": "Retour",
@@ -37,14 +37,15 @@
         {
           "id": "bio",
           "label": "Bio",
+          "image": "assets/images/profilePicture.jpeg",
           "eyebrow": "MODULE // BIO",
-          "heading": "Biographie",
-          "text": "Courte présentation : qui vous êtes, ce que vous faites, ce qui motive votre travail. Deux ou trois phrases suffisent en général sur un écran comme celui-ci.",
+          "heading": "Biographie — Sreevatsa RAVIKANTH",
+          "text": "ingénieur spécialisé en Bio-informatique et intelligence artificielle.",
           "bullets": [
-            "Statut actuel : [ex. Doctorant, Labo Robotique]",
-            "Institution / affiliation : [votre institution]",
-            "Localisation : [Ville, Pays]",
-            "Langues : [Français, English, ...]"
+            "Statut actuel : [Opérationnel]",
+            "Affiliation : [Aucun]",
+            "Localisation : [Paris, Île-de-France]",
+            "Niveau d'Enseignement Supérieur: [Titre d'Ingénieur Agrée par la CTI, École Centrale d’Électronique Paris, 2020 - 2025]"
           ]
         },
         {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "E.F.S.F. Personal Terminal",
-    "operator": "OPERATOR // [SREEVATSA RAVIKANTH]",
+    "operator": "OPERATOR // SREEVATSA RAVIKANTH",
     "docTitle": "Personal Terminal — [Sreevatsa RAVIKANTH]"
   },
   "ui": {
@@ -37,14 +37,15 @@
         {
           "id": "bio",
           "label": "Bio",
+          "image": "assets/images/profilePicture.jpeg",
           "eyebrow": "MODULE // BIO",
-          "heading": "Biography - Sreevatsa RAVIKANTH",
+          "heading": "Biography — Sreevatsa RAVIKANTH",
           "text": "French Engineer specializing in Bioinformatics and Artificial Intelligence.",
           "bullets": [
-            "Current role / status: [Ready to deploit]",
-            "Institution / affiliation: [Nothing]",
-            "Location: [Paris, Ile-de-France]",
-            "Highest Education: [MEng, École Centrale d’Électronique Paris, 2020 - 2025]"
+            "Current role / status: [Operational]",
+            "Affiliation: [Nothing]",
+            "Location: [Paris, Île-de-France]",
+            "Highest Education Level: [MEng, École Centrale d’Électronique Paris, 2020 - 2025]"
           ]
         },
         {
