@@ -11,5 +11,5 @@ css/style.css        -> tout le style (couleurs, cadre, LED, chanfreins, respons
 js/script.js         -> navigation, chargement des langues, rendu des onglets
 lang/en.json         -> tout le contenu texte en anglais
 lang/fr.json         -> tout le contenu texte en français
-assets/       -> tout les documents et images
+assets/              -> tout les documents et images
 ```
