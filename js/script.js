@@ -117,7 +117,7 @@
       await typeLine(p, lines[i]);
 
       // Pause entre deux lignes
-      await new Promise(resolve => setTimeout(resolve, 250));
+      await new Promise(resolve => setTimeout(resolve, 200));
     }
 
     langChoice.classList.add("ready");
