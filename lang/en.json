@@ -69,8 +69,8 @@
           "bullets": [
             "Languages: [French (native), Tamil (native), English (C2, TOEIC 980/990), Japanese (A1), Spanish (A1)]",
             "Programming Languages: [Python, Java, C/C++, SQL, R, MATLAB/Octave/Scilab, Dart/Flutter, SAS, VHDL]",
-            "Bioinformatics: [Single-cell RNA-seq, Transcriptomics,Gene Expression Profiling, Multi-omics Data Analysis, Tumor Microenvironment Analysis, Cell Annotation, Cell-Cell Communication, Trajectory Inference]"
-
+            "Bioinformatics: [Single-cell RNA-seq, Transcriptomics,Gene Expression Profiling, Multi-omics Data Analysis, Tumor Microenvironment Analysis, Cell Annotation, Cell-Cell Communication, Trajectory Inference]",
+            "Data Science & AI: [Machine Learning, Deep Learning, Supervised Learning, Image Processing, Reinforcement Learning, Bayesian Optimization, Signal Processing, Graph Theory]"
           ]
         },
         {

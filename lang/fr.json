@@ -69,7 +69,8 @@
           "bullets": [
             "Langages : [Français (langue maternelle), Tamil (langue maternelle), Anglais (C2, TOEIC 980/990), Japonais (A1), Espagnol (A1)]",
             "Langages de Programmation : [Python, Java, C/C++, SQL, R, MATLAB/Octave, Dart/Flutter, SAS, VHDL]",
-            "Bioinformatique : [Séquençage d'ARN Unicellulaire, Transcriptomique, Profilage de l'Expression Génique, Analyse de données Multi-Omiques, Analyse du Microenvironnement Tumoral, Annotation Cellulaire, Communication Intercellulaire, Inférence de Trajectoires]"
+            "Bioinformatique : [Séquençage d'ARN Unicellulaire, Transcriptomique, Profilage de l'Expression Génique, Analyse de données Multi-Omiques, Analyse du Microenvironnement Tumoral, Annotation Cellulaire, Communication Intercellulaire, Inférence de Trajectoires]",
+            "Science des données et IA : [Apprentissage Automatique, Apprentissage Profond, Apprentissage Supervisé, Traitement d'Images, Apprentissage par Renforcement, Optimisation Bayésienne, Traitement du Signal, Théorie des Graphes]"
             
           ]
         },
