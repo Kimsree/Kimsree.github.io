@@ -400,12 +400,12 @@ a:focus-visible, button:focus-visible{
    SECTION VIEW — CONTENT (viewport + textpane)
    ============================================================ */
 .panel-content{
-  flex:1 1 auto;
-  min-height:0;
-  display:grid;
-  grid-template-columns:minmax(160px, 34%) 1fr;
-  gap:clamp(14px, 2.4vw, 30px);
-  overflow:hidden;
+    flex:1;
+    display:grid;
+    grid-template-columns:minmax(160px,34%) 1fr;
+    grid-template-rows:1fr;
+    min-height:0;
+    overflow:hidden;
 }
 
 .viewport{
@@ -460,9 +460,11 @@ a:focus-visible, button:focus-visible{
 }
 
 .textpane{
-  min-height:0;
-  overflow-y:auto;
-  padding-right:6px;
+    height:100%;
+    overflow-y:auto;
+    overflow-x:hidden;
+    min-height:0;
+    padding-right:10px;
 }
 .tab-eyebrow{
   display:block;
