@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteTitle": "E.F.S.F. Personal Terminal",
-    "operator": "OPERATOR // [YOUR NAME]",
-    "docTitle": "Personal Terminal — [Your Name]"
+    "operator": "OPERATOR // [SREEVATSA RAVIKANTH]",
+    "docTitle": "Personal Terminal — [Sreevatsa RAVIKANTH]"
   },
   "ui": {
     "back": "Back",
@@ -38,23 +38,22 @@
           "id": "bio",
           "label": "Bio",
           "eyebrow": "MODULE // BIO",
-          "heading": "Biography",
-          "text": "Short introduction goes here — who you are, what you do, and what drives your work. Two or three sentences is usually enough on a terminal screen like this one.",
+          "heading": "Biography - Sreevatsa RAVIKANTH",
+          "text": "French Engineer specializing in Bioinformatics and Artificial Intelligence.",
           "bullets": [
-            "Current role / status: [e.g. PhD Candidate, Robotics Lab]",
-            "Institution / affiliation: [Your institution]",
-            "Location: [City, Country]",
-            "Languages: [English, Français, ...]"
+            "Current role / status: [Ready to deploit]",
+            "Institution / affiliation: [Nothing]",
+            "Location: [Paris, Ile-de-France]",
+            "Highest Education: [MEng, École Centrale d’Électronique Paris, 2020 - 2025]"
           ]
         },
         {
-          "id": "cv",
-          "label": "CV",
-          "eyebrow": "MODULE // CV",
-          "heading": "Curriculum Vitae",
+          "id": "education",
+          "label": "Education",
+          "eyebrow": "MODULE // Education",
+          "heading": "Education",
           "text": "Summarize your academic and professional path in a few lines, then link the full document below.",
           "bullets": [
-            "Download full CV: [link to PDF]",
             "Education: [Degree, Institution, Year]",
             "Education: [Degree, Institution, Year]",
             "Key certification: [Name, Year]"
@@ -70,7 +69,8 @@
             "Languages: [Python, C++, JavaScript, ...]",
             "Tools & frameworks: [ROS, PyTorch, React, ...]",
             "Methods: [CAD, control theory, statistics, ...]",
-            "Soft skills: [project management, mentoring, ...]"
+            "Soft skills: [project management, mentoring, ...]",
+            "Languages: [English, Français, ...]"
           ]
         },
         {
