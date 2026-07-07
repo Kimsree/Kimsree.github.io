@@ -10,7 +10,6 @@
     "rotateBody": "Ce terminal nécessite le mode paysage. Veuillez tourner votre appareil.",
     "bootLines": [
       "> Initialisation du terminal de recherche Sreevatsa...",
-      "> Bio-informatique... OK",
       "> Biologie computationnelle... OK",
       "> Apprentissage automatique... OK",
       "> Bienvenue, ingénieur orienté recherche."
@@ -99,7 +98,7 @@
           "label": "Certifications",
           "eyebrow": "MODULE // CERTIFICATIONS",
           "heading": "Certifications",
-          "text": "Sélection de certifications et d'expériences d'apprentissage qui témoignent curiosité, capacité d'adaptation et engagement en faveur d'un développement continu.",
+          "text": "Sélection de certifications qui témoignent curiosité, capacité d'adaptation et engagement pour un développement continu.",
           "bullets": [
             "[Les bonnes pratiques cliniques de l'ICH E6(R3), The Global Health Network, 2026]",
             "[ECE Examen Python, Liora, 2023]",
@@ -112,83 +111,99 @@
       "title": "Recherche",
       "tabs": [
         {
-          "id": "interests",
-          "label": "Intérêts de Recherche",
-          "eyebrow": "MODULE // INTÉRÊTS",
-          "heading": "Intérêts de Recherche",
-          "text": "Décrivez les grandes questions et thématiques qui guident votre programme de recherche.",
+          "id": "orlNutrition465",
+          "label": "Cancer ORL & Nutrition (n=465)",
+          "eyebrow": "MODULE // CANCER ORL & NUTRITION (N=465)",
+          "heading": "Prévalence des carences en micronutriments chez 465 patients atteints d’un cancer ORL admis dans une unité de rééducation",
+          "text": "Réalisation d'une étude statistique sur les carences en micronutriments chez des patients atteints d’un cancer ORL. Construction et structuration de bases de données cliniques pour la modélisation prédictive. Réalisation d’analyses de régression logistique univariées, multivariées et LASSO afin d’identifier les facteurs associés aux carences en micronutriments.",
           "bullets": [
-            "[Thème de recherche 1 — description en une ligne]",
-            "[Thème de recherche 2 — description en une ligne]",
-            "[Thème de recherche 3 — description en une ligne]"
+            "Rôle : [Biostatisticien junior]",
+            "Technologies / outils : [Python, winSimbad, DxCare, Ambre, Excel, PowerPoint, Word, SharePoint]",
+            "Statut : [terminé, 2025]",
+            "Lien : [privé]"
           ]
         },
         {
-          "id": "currentProjects",
-          "label": "Projets en Cours",
-          "eyebrow": "MODULE // ACTIFS",
-          "heading": "Projets de Recherche en Cours",
-          "text": "Listez ce sur quoi vous travaillez actuellement, avec un statut court pour chacun.",
+          "id": "orlNutrition204",
+          "label": "Cancer ORL & Nutrition (n=204)",
+          "eyebrow": "MODULE // CANCER ORL & NUTRITION (N=204)",
+          "heading": "Prévalence des carences en micronutriments chez 204 patients atteints d’un cancer ORL admis dans une unité de rééducation",
+          "text": "Prétraitement des données et analyse statistique d'une cohorte de 204 patients en oncologie. Structuration et curation de données cliniques pour la recherche en nutrition oncologique. Calcul des prévalences et comparaison de sous-groupes à l’aide des tests exacts de Boschloo. Identification de six micronutriments significativement associés à l’inflammation grâce aux analyses de corrélation de Spearman et à la régression symbolique, avec des résultats rapportés à un intervalle de confiance de 95 %.",
           "bullets": [
-            "[Nom du projet] — statut : en cours, [année de début]–présent",
-            "[Nom du projet] — statut : phase de collecte de données",
-            "[Nom du projet] — statut : en relecture"
+            "Rôle : [Biostatisticien junior]",
+            "Technologies / outils : [Python, winSimbad, DxCare, Ambre, Excel, PowerPoint, Word, SharePoint]",
+            "Statut : [terminé, 2024]",
+            "Lien : [privé]"
           ]
         },
         {
-          "id": "collaborations",
-          "label": "Collaborations",
-          "eyebrow": "MODULE // RÉSEAU",
-          "heading": "Collaborations",
-          "text": "Mentionnez les laboratoires, entreprises ou chercheurs avec qui vous collaborez régulièrement.",
+          "id": "stressDetection",
+          "label": "Détection du stress",
+          "eyebrow": "MODULE // DÉTECTION DU STRESS",
+          "heading": "Projets de recherche",
+          "text": "Harmonisation de jeux de données physiologiques multimodaux (PPG, température, EDA et accéléromètre) et réalisation d’un prétraitement avancé des signaux, incluant le filtrage, l’extraction de caractéristiques dans les domaines temporel et fréquentiel ainsi que la réduction de dimensionnalité. Étude de l’impact de la fusion de données multimodales et des stratégies de fenêtrage sur les performances des modèles. Entraînement et évaluation de 12 modèles d’apprentissage automatique à l’aide d’une validation croisée Leave-One-Subject-Out (LOSO-CV) avec optimisation bayésienne des hyperparamètres. Obtention d’un meilleur score F1 de 81,9 % pour une classification ternaire. Interprétation des prédictions grâce aux valeurs SHAP et développement de pipelines reproductibles de machine learning sous Linux.",
           "bullets": [
-            "[Nom du labo / institution] — [nature de la collaboration]",
-            "[Nom du labo / institution] — [nature de la collaboration]",
-            "[Partenaire industriel] — [nature de la collaboration]"
+            "Rôle : [Étudiant chercheur]",
+            "Technologies / outils : [Python, Linux, Excel, Latex]",
+            "Statut : [terminé, 2023 - 2025]",
+            "Lien : [privé]"
+          ]
+        },
+        {
+          "id": "veronaOmics",
+          "label": "Analyse Single-Cell RNA-seq",
+          "eyebrow": "MODULE // SINGLE-CELL",
+          "heading": "Analyse Single-Cell RNA-seq d’échantillons tumoraux",
+          "text": "Développement d’un pipeline reproductible d’analyse de données de séquençage ARN unicellulaire (scRNA-seq) pour des jeux de données 10x Genomics à l’aide de Seurat sous R et R Markdown. Réalisation du contrôle qualité, de la normalisation, de la sélection des gènes hautement variables, de l’ACP, de l’UMAP et du clustering basé sur les graphes. Amélioration de la qualité des données grâce à une détection automatisée et supervisée des doublets avec DoubletFinder et des marqueurs spécifiques de lignées cellulaires. Annotation des populations cellulaires avec SingleR, CHETAH et des gènes marqueurs canoniques. Identification des gènes marqueurs spécifiques aux clusters et caractérisation des populations immunitaires et stromales dans le microenvironnement tumoral du cancer bronchique non à petites cellules (NSCLC). Étude des communications cellule-cellule avec CellChat et reconstruction des trajectoires de différenciation avec Slingshot.",
+          "bullets": [
+            "Rôle : [Étudiant chercheur]",
+            "Technologies / outils : [R]",
+            "Statut : [terminé, 2023 - 2025]",
+            "Lien : [https://github.com/Kimsree/SingleCellProjectVerona]"
           ]
         }
       ]
     },
     "projects": {
-      "title": "Projets",
+      "title": "Autres projets",
       "tabs": [
         {
-          "id": "projectA",
-          "label": "Projet A",
-          "eyebrow": "PROJET // A",
-          "heading": "[Nom du Projet A]",
-          "text": "Un paragraphe décrivant l'objectif, votre rôle et le résultat de ce projet.",
+          "id": "sonyStock",
+          "label": "Application Retail Sony",
+          "eyebrow": "PROJET // APPLICATION RETAIL SONY",
+          "heading": "[Application mobile pour les opérations Retail de Sony]",
+          "text": "Développement d’une application mobile de gestion des stocks destinée aux magasins Sony France. Promotion des produits Sony par des démonstrations techniques en magasin et accompagnement des clients sur les caractéristiques et technologies des produits.",
           "bullets": [
-            "Rôle : [votre rôle]",
-            "Stack / outils : [outils utilisés]",
-            "Statut : [en cours / terminé, année]",
-            "Lien : [URL du dépôt ou démo]"
+            "Rôle : [Ingénieur Full Stack]",
+            "Technologies / outils : [Flutter/Dart]",
+            "Statut : [en cours, 2026]",
+            "Lien : [privé]"
           ]
         },
         {
-          "id": "projectB",
-          "label": "Projet B",
-          "eyebrow": "PROJET // B",
-          "heading": "[Nom du Projet B]",
-          "text": "Un paragraphe décrivant l'objectif, votre rôle et le résultat de ce projet.",
+          "id": "NutritionDayFrance",
+          "label": "NutritionDayFrance",
+          "eyebrow": "PROJET // NutritionDay France",
+          "heading": "[NutritionDay France]",
+          "text": "Création et gestion du site web français de l’étude internationale nutritionDay. Adaptation d’un projet international de recherche clinique au contexte du système de santé français. Maintenance technique du site, assistance aux utilisateurs et coordination de la participation nationale à une étude épidémiologique internationale.",
           "bullets": [
-            "Rôle : [votre rôle]",
-            "Stack / outils : [outils utilisés]",
-            "Statut : [en cours / terminé, année]",
-            "Lien : [URL du dépôt ou démo]"
+            "Rôle : [Webmaster & Coordination de la recherche]",
+            "Technologies / outils : [HTML, CSS, JavaScript, PHP, WordPress, Hostinger, phpMyAdmin, MySQL]",
+            "Statut : [terminé, 2024 - 2025]",
+            "Lien : [archivé]"
           ]
         },
         {
-          "id": "projectC",
-          "label": "Projet C",
-          "eyebrow": "PROJET // C",
-          "heading": "[Nom du Projet C]",
-          "text": "Un paragraphe décrivant l'objectif, votre rôle et le résultat de ce projet.",
+          "id": "ECECUP",
+          "label": "ECE CUP",
+          "eyebrow": "PROJET // ECE CUP",
+          "heading": "[ECE CUP]",
+          "text": "Développement d’une plateforme robotique autonome basée sur un microcontrôleur ESP32. Mise en œuvre d’un système de vision par ordinateur en temps réel avec OpenCV pour détecter et localiser le robot, les barils et les adversaires sur le terrain. Conception d’algorithmes de planification de trajectoire et d’évitement d’obstacles pour la navigation autonome. Intégration d’une communication sans fil basée sur MQTT pour le suivi et le contrôle en temps réel. Participation à une compétition de robotique autonome consistant à collecter et déposer des barils tout en évitant les collisions avec les adversaires et les obstacles.",
           "bullets": [
-            "Rôle : [votre rôle]",
-            "Stack / outils : [outils utilisés]",
-            "Statut : [en cours / terminé, année]",
-            "Lien : [URL du dépôt ou démo]"
+            "Rôle : [Étudiant]",
+            "Technologies / outils : [Arduino, ThinkerCad, Onshape, Ultimaker Cura]",
+            "Statut : [terminé, 2020 - 2022]",
+            "Lien : [...]"
           ]
         }
       ]

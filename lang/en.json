@@ -10,7 +10,6 @@
     "rotateBody": "This terminal requires landscape mode. Please rotate your device.",
     "bootLines": [
       "> Initializing Sreevatsa Research terminal...",
-      "> Bioinformatics... OK",
       "> Computational Biology... OK",
       "> Machine Learning... OK",
       "> Welcome, Researcher Engineer."
@@ -44,7 +43,7 @@
           "text": "French Engineer specializing in Bioinformatics and Artificial Intelligence.",
           "bullets": [
             "Current role / status: [Operational]",
-            "Affiliation: [Nothing]",
+            "Affiliation: [None]",
             "Location: [Paris, Île-de-France]",
             "Highest Education Level: [MEng, École Centrale d'Électronique Paris, 2020 - 2025]",
             "Driving licence: Category B (Europe)"
@@ -86,7 +85,7 @@
           "label": "Awards",
           "eyebrow": "MODULE // AWARDS",
           "heading": "Awards & Distinctions",
-          "text": "A selection of certifications and learning experiences reflecting curiosity, adaptability, and commitment to continuous growth.",
+          "text": "Recognized for a competitive mindset, strong analytical thinking, and scientific excellence, as demonstrated by outstanding results in academic competitions.",
           "bullets": [
             "[1st place out of 567 – Best Scientific Poster, ECE, 2024]",
             "[1st place out of 104 – Best Scientific Poster, LyRIDS, 2024]",
@@ -99,7 +98,7 @@
           "label": "Certifications",
           "eyebrow": "MODULE // CERTIFICATIONS",
           "heading": "Certifications",
-          "text": "Highlight recognitions, scholarships, or competition results relevant to your field.",
+          "text": "A selection of certifications demonstrating curiosity, adaptability, and a commitment to continuous learning.",
           "bullets": [
             "[ICH E6(R3) Good Clinical Practice, The Global Health Network, 2026]",
             "[ECE Python Exam, Liora, 2023]",
@@ -112,83 +111,99 @@
       "title": "Research",
       "tabs": [
         {
-          "id": "interests",
-          "label": "Research Interests",
-          "eyebrow": "MODULE // INTERESTS",
-          "heading": "Research Interests",
-          "text": "Describe the broad questions and themes that guide your research program.",
+          "id": "orlNutrition465",
+          "label": "ORL Cancer & Nutrition (n=465)",
+          "eyebrow": "MODULE // ORL CANCER & NUTRITION (N=465)",
+          "heading": "Prevalence of micronutrient deficiencies in 465 patients with head and neck cancers admitted to a rehabilitation unit",
+          "text": "Conducted a statistical study on micronutrient deficiencies in patients with head and neck cancer. Constructed and structured clinical databases for predictive modeling. Performed univariate, multivariate, and LASSO logistic regression analyses to identify factors associated with micronutrient deficiencies.",
           "bullets": [
-            "[Research theme 1 — one line description]",
-            "[Research theme 2 — one line description]",
-            "[Research theme 3 — one line description]"
+            "Role: [Junior biostatistician]",
+            "Stack / tools: [Python, winSimbad, DxCare, Ambre, Excel, PowerPoint, Word, SharePoint]",
+            "Status: [completed, 2025]",
+            "Link: [private]"
           ]
         },
         {
-          "id": "currentProjects",
-          "label": "Current Projects",
-          "eyebrow": "MODULE // ACTIVE",
+          "id": "orlNutrition204",
+          "label": "ORL Cancer & Nutrition (n=204)",
+          "eyebrow": "MODULE // ORL CANCER & NUTRITION (N=204)",
+          "heading": "Prevalence of micronutrient deficiencies in 204 patients with head and neck cancers admitted to a rehabilitation unit",
+          "text": "Data preprocessing and statistical analysis of a cohort of 204 oncology patients. Structured and curated clinical data for oncology nutrition research. Calculated prevalences and performed subgroup comparisons using Boschloo’s exact tests. Identified six significant micronutrients associated with inflammation through Spearman correlation analyses and symbolic regression modeling, with results reported at a 95% confidence interval.",
+          "bullets": [
+            "Role: [Junior biostatistician]",
+            "Stack / tools: [Python, winSimbad, DxCare, Ambre, Excel, PowerPoint, Word, SharePoint]",
+            "Status: [completed, 2024]",
+            "Link: [private]"
+          ]
+        },
+        {
+          "id": "stressDetection",
+          "label": "Stress Detection",
+          "eyebrow": "MODULE // STRESS DETECTION",
           "heading": "Current Research Projects",
-          "text": "List what you are actively working on right now, with a short status for each.",
+          "text": "Harmonized multimodal physiological datasets (PPG, temperature, EDA, and accelerometer signals) and performed advanced signal preprocessing, including filtering, temporal and frequency-domain feature engineering, and dimensionality reduction. Investigated the impact of multimodal data fusion and windowing strategies on model performance. Trained and evaluated 12 machine learning models using Leave-One-Subject-Out Cross-Validation (LOSO-CV), with Bayesian hyperparameter optimization. Achieved a best F1-score of 81.9% for ternary classification. Interpreted model predictions using SHAP values and developed reproducible machine learning pipelines in a Linux environment.",
           "bullets": [
-            "[Project name] — status: ongoing, [start year]–present",
-            "[Project name] — status: data collection phase",
-            "[Project name] — status: under review"
+            "Role: [Research Student]",
+            "Stack / tools: [Python, Linux, Excel, Latex]",
+            "Status: [completed, 2023 - 2025]",
+            "Link: [private]"
           ]
         },
         {
-          "id": "collaborations",
-          "label": "Collaborations",
-          "eyebrow": "MODULE // NETWORK",
-          "heading": "Collaborations",
-          "text": "Mention labs, companies, or researchers you regularly collaborate with.",
+          "id": "veronaOmics",
+          "label": "Single-Cell RNA-seq Analysis",
+          "eyebrow": "MODULE // SINGLE-CELL",
+          "heading": "Single-Cell RNA-seq Analysis of Cancer Samples",
+          "text": "Developed a reproducible single-cell RNA-sequencing (scRNA-seq) analysis pipeline for 10x Genomics datasets using Seurat in R and R Markdown. Performed quality control, normalization, highly variable gene selection, PCA, UMAP, and graph-based clustering. Improved data quality through automated and supervised doublet detection with DoubletFinder and lineage-specific markers. Annotated cell populations using SingleR, CHETAH, and canonical marker genes. Identified cluster-specific marker genes and characterized immune and stromal cell populations within the non-small cell lung cancer (NSCLC) tumor microenvironment. Investigated cell–cell communication using CellChat and reconstructed lineage trajectories with Slingshot.",
           "bullets": [
-            "[Lab / institution name] — [nature of collaboration]",
-            "[Lab / institution name] — [nature of collaboration]",
-            "[Industry partner] — [nature of collaboration]"
+            "Role: [Research Student]",
+            "Stack / tools: [R]",
+            "Status: [completed, 2023 - 2025]",
+            "Link: [https://github.com/Kimsree/SingleCellProjectVerona]"
           ]
         }
       ]
     },
     "projects": {
-      "title": "Projects",
+      "title": "Other Projects",
       "tabs": [
         {
-          "id": "projectA",
-          "label": "Project A",
-          "eyebrow": "PROJECT // A",
-          "heading": "[Project A name]",
-          "text": "One paragraph describing the goal, your role, and the outcome of this project.",
+          "id": "sonyStock",
+          "label": "Sony Retail App",
+          "eyebrow": "PROJECT // SONY RETAIL APP",
+          "heading": "[Mobile Application for Sony Retail Operations]",
+          "text": "Developed a mobile application for retail stock management for Sony France. Promoted Sony products through in-store technical demonstrations and provided customer guidance on product features and technologies.",
           "bullets": [
-            "Role: [your role]",
-            "Stack / tools: [tools used]",
-            "Status: [ongoing / completed, year]",
-            "Link: [repo or demo URL]"
+            "Role: [Full Stack Engineer]",
+            "Stack / tools: [Flutter/Dart]",
+            "Status: [ongoing, 2026]",
+            "Link: [private]"
           ]
         },
         {
-          "id": "projectB",
-          "label": "Project B",
-          "eyebrow": "PROJECT // B",
-          "heading": "[Project B name]",
-          "text": "One paragraph describing the goal, your role, and the outcome of this project.",
+          "id": "NutritionDayFrance",
+          "label": "NutritionDayFrance",
+          "eyebrow": "PROJECT // NutritionDay France",
+          "heading": "[NutritionDay France]",
+          "text": "Created and managed the French website for the international nutritionDay study. Adapted an international clinical research project to the French healthcare context. Provided technical maintenance and user support while coordinating national participation in a global epidemiological study.",
           "bullets": [
-            "Role: [your role]",
-            "Stack / tools: [tools used]",
-            "Status: [ongoing / completed, year]",
-            "Link: [repo or demo URL]"
+            "Role: [Webmaster & Research Coordination]",
+            "Stack / tools: [html, ccs, javascript, php, Wordpress, Hostinger, phpMyAdmin, MySQL]",
+            "Status: [completed, 2024 - 2025]",
+            "Link: [archived]"
           ]
         },
         {
-          "id": "projectC",
-          "label": "Project C",
-          "eyebrow": "PROJECT // C",
-          "heading": "[Project C name]",
-          "text": "One paragraph describing the goal, your role, and the outcome of this project.",
+          "id": "ECECUP",
+          "label": "ECE CUP",
+          "eyebrow": "PROJECT // ECE CUP",
+          "heading": "[ECE CUP]",
+          "text": "Developed an autonomous robotic platform based on an ESP32 microcontroller. Implemented real-time computer vision with OpenCV to detect and localize the robot, barrels, and opponents on the playing field. Designed path-planning and obstacle-avoidance algorithms for autonomous navigation. Integrated MQTT-based wireless communication for real-time monitoring and control. Competed in an autonomous robotics challenge involving barrel collection and delivery while avoiding collisions with opponents and obstacles.",
           "bullets": [
-            "Role: [your role]",
-            "Stack / tools: [tools used]",
-            "Status: [ongoing / completed, year]",
-            "Link: [repo or demo URL]"
+            "Role: [Student]",
+            "Stack / tools: [Arduino, ThinkerCad, Onshape, Ultimaker Cura]",
+            "Status: [completed, 2020 - 2022]",
+            "Link: [...]"
           ]
         }
       ]
