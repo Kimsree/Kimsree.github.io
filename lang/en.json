@@ -175,14 +175,14 @@
           "text": "Developed a mobile application for retail stock management for Sony France. Promoted Sony products through in-store technical demonstrations and provided customer guidance on product features and technologies.",
           "bullets": [
             "Role: [Full Stack Engineer]",
-            "Stack / tools: [Flutter/Dart]",
+            "Stack / tools: [Flutter/Dart, SQL]",
             "Status: [ongoing, 2026]",
             "Link: [private]"
           ]
         },
         {
           "id": "NutritionDayFrance",
-          "label": "NutritionDayFrance",
+          "label": "NutritionDay France",
           "eyebrow": "PROJECT // NUTRITION FRANCE",
           "heading": "NutritionDay France",
           "text": "Created and managed the French website for the international nutritionDay study. Adapted an international clinical research project to the French healthcare context. Provided technical maintenance and user support while coordinating national participation in a global epidemiological study.",
