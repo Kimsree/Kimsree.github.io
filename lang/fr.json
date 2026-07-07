@@ -197,8 +197,8 @@
           "id": "ECECUP",
           "label": "ECE CUP",
           "eyebrow": "PROJET // ECE CUP",
-          "heading": "[ECE CUP]",
-          "text": "Développement d’une plateforme robotique autonome basée sur un microcontrôleur ESP32. Mise en œuvre d'un système de vision par ordinateur en temps réel avec OpenCV pour détecter et localiser le robot, les barils et les adversaires sur le terrain. Conception d’algorithmes de planification de trajectoire et d’évitement d’obstacles pour la navigation autonome. Intégration d’une communication sans fil basée sur MQTT pour le suivi et le contrôle en temps réel. Participation à une compétition de robotique autonome consistant à collecter et déposer des barils tout en évitant les collisions avec les adversaires et les obstacles.",
+          "heading": "ECE CUP",
+          "text": "Développement d'une plateforme robotique autonome basée sur un microcontrôleur ESP32. Mise en œuvre d'un système de vision par ordinateur en temps réel avec OpenCV pour détecter et localiser le robot, les barils et les adversaires sur le terrain. Conception d’algorithmes de planification de trajectoire et d’évitement d’obstacles pour la navigation autonome. Intégration d’une communication sans fil basée sur MQTT pour le suivi et le contrôle en temps réel. Participation à une compétition de robotique autonome consistant à collecter et déposer des barils tout en évitant les collisions avec les adversaires et les obstacles.",
           "bullets": [
             "Rôle : [Étudiant]",
             "Technologies / outils : [Arduino, ThinkerCad, Onshape, Ultimaker Cura]",
@@ -279,7 +279,7 @@
             "[Auxiliaire de Vie] — [URSSAF Île-de-France], [Mai 2018 - Présent]",
             "[Promoteur] — [Sony France/Districom], [Avr 2026 - Jul 2026]",
             "[Commercial] — [Xiaomi France], [Déc 2021 - Aoû 2022]",
-            "[Animateur Jeunesse] — [City of Joinville-le-Pont], [Fév 2016 - Avr 2016]"
+            "[Animateur Jeunesse] — [Mairie de Joinville-le-Pont], [Fév 2016 - Avr 2016]"
           ]
         }
       ]
