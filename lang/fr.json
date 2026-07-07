@@ -24,9 +24,9 @@
     "tiles": [
       { "id": "profile",      "label": "Profil" },
       { "id": "research",     "label": "Recherche" },
-      { "id": "projects",     "label": "Projets" },
+      { "id": "projects",     "label": "Autres Projets" },
       { "id": "publications", "label": "Publications" },
-      { "id": "experience",   "label": "Expériences" },
+      { "id": "experience",   "label": "Expériences Professionnelles" },
       { "id": "contact",      "label": "Contact" }
     ]
   },
@@ -165,7 +165,7 @@
       ]
     },
     "projects": {
-      "title": "Autres projets",
+      "title": "Autres Projets",
       "tabs": [
         {
           "id": "sonyStock",
@@ -198,7 +198,7 @@
           "label": "ECE CUP",
           "eyebrow": "PROJET // ECE CUP",
           "heading": "[ECE CUP]",
-          "text": "Développement d’une plateforme robotique autonome basée sur un microcontrôleur ESP32. Mise en œuvre d’un système de vision par ordinateur en temps réel avec OpenCV pour détecter et localiser le robot, les barils et les adversaires sur le terrain. Conception d’algorithmes de planification de trajectoire et d’évitement d’obstacles pour la navigation autonome. Intégration d’une communication sans fil basée sur MQTT pour le suivi et le contrôle en temps réel. Participation à une compétition de robotique autonome consistant à collecter et déposer des barils tout en évitant les collisions avec les adversaires et les obstacles.",
+          "text": "Développement d’une plateforme robotique autonome basée sur un microcontrôleur ESP32. Mise en œuvre d'un système de vision par ordinateur en temps réel avec OpenCV pour détecter et localiser le robot, les barils et les adversaires sur le terrain. Conception d’algorithmes de planification de trajectoire et d’évitement d’obstacles pour la navigation autonome. Intégration d’une communication sans fil basée sur MQTT pour le suivi et le contrôle en temps réel. Participation à une compétition de robotique autonome consistant à collecter et déposer des barils tout en évitant les collisions avec les adversaires et les obstacles.",
           "bullets": [
             "Rôle : [Étudiant]",
             "Technologies / outils : [Arduino, ThinkerCad, Onshape, Ultimaker Cura]",
@@ -216,10 +216,9 @@
           "label": "Articles de Revue",
           "eyebrow": "REGISTRE // REVUE",
           "heading": "Articles de Revue",
-          "text": "Listez vos articles publiés dans des revues à comité de lecture, du plus récent au plus ancien.",
+          "text": "Liste d'articles publiés dans des revues à comité de lecture, du plus récent au plus ancien.",
           "bullets": [
-            "[Auteurs]. \"[Titre]\". [Revue], [Année]. [DOI/lien]",
-            "[Auteurs]. \"[Titre]\". [Revue], [Année]. [DOI/lien]"
+            "[aucun]"
           ]
         },
         {
@@ -227,10 +226,9 @@
           "label": "Conférences",
           "eyebrow": "REGISTRE // CONFÉRENCE",
           "heading": "Actes de Conférence",
-          "text": "Listez vos actes de conférence et présentations.",
+          "text": "Liste des actes de conférence et présentations.",
           "bullets": [
-            "[Auteurs]. \"[Titre] \". [Conférence], [Année]. [DOI/lien]",
-            "[Auteurs]. \"[Titre] \". [Conférence], [Année]. [DOI/lien]"
+            "[aucun]"
           ]
         },
         {
@@ -238,10 +236,9 @@
           "label": "Posters",
           "eyebrow": "REGISTRE // POSTER",
           "heading": "Posters",
-          "text": "Listez vos présentations par poster lors de conférences ou d'ateliers.",
+          "text": "Liste des présentations par poster lors de conférences ou d'ateliers.",
           "bullets": [
-            "[Titre] — [Événement], [Année]",
-            "[Titre] — [Événement], [Année]"
+            "[Prevalence of micronutrient deficiencies in 204 patients with head and neck cancers (hnc) admitted to a rehabilitation unit] — [Clinical Nutrition ESPEN], [2024]"
           ]
         },
         {
@@ -249,27 +246,40 @@
           "label": "Prépublications",
           "eyebrow": "REGISTRE // PRÉPUBLICATION",
           "heading": "Prépublications",
-          "text": "Listez vos prépublications non encore relues par les pairs.",
+          "text": "Liste de prépublications non encore relues par les pairs.",
           "bullets": [
-            "[Auteurs]. \"[Titre]\". [Dépôt], [Année]. [lien]",
-            "[Auteurs]. \"[Titre]\". [Dépôt], [Année]. [lien]"
+            "[M. Guinhut et al.]. \"[Prevalence of micronutrient deficiencies in 465 patients with head and neck cancers (hnc) admitted to a rehabilitation unit]\". [Clinical Nutrition ESPEN], [2025]. [Manuscript under review]",
+            "[A.Konesalingam, S. Ravikanth, G. M. Machado, F. Belbachir, and A. Jaouadi]. \"[Stress detection with physiological signal from wrist-worn devices]\"., [2025]. [Unpublished manuscript]"
           ]
         }
       ]
     },
     "experience": {
-      "title": "Expériences",
+      "title": "Expériences Professionnelles",
       "tabs": [
         {
-          "id": "timeline",
-          "label": "Chronologie",
-          "eyebrow": "MODULE // JOURNAL DE CARRIÈRE",
+          "id": "technicalExperience",
+          "label": "Parcours Professionel",
+          "eyebrow": "MODULE // PARCOURS PROFESSIONNEL",
           "heading": "Expériences Professionnelles",
-          "text": "Listez vos postes du plus récent au plus ancien, avec les dates et une courte description de vos responsabilités.",
           "bullets": [
-            "[Intitulé du poste] — [Entreprise], [Année–Année] : [description en une ligne]",
-            "[Intitulé du poste] — [Entreprise], [Année–Année] : [description en une ligne]",
-            "[Intitulé du poste] — [Entreprise], [Année–Année] : [description en une ligne]"
+            "[Ingénieur Full Stack]  — [Districom], [Avr 2026 - Jul 2026]: [Développement d'une application mobile de gestion des stocks en magasin pour Sony France]",
+            "[Webmaster] — [nutritionDay France], [Avr 2025 - Fev 2026]: [Création et gestion du site web de la branche française de l'étude internationale nutritionDay]",
+            "[Biostatisticien Junior] — [Gustave Roussy], [Mar 2025 - Oct 2025]: [Étude statistique sur les carences en micronutriments chez les patients atteints d'un cancer ORL]",
+            "[Biostatisticien Junior] — [Gustave Roussy], [Avr 2024 - Sep 2024]: [Prétraitement des données et analyse statistique portant sur 204 patients en oncologie]",
+            "[Consultant en Optimisation des Processus] — [D-MUTE NETWORK], [Jan 2023 - Fév 2023]: [Conception et développement d'API pour la gestion des ressources d'entreprise]"
+          ]
+        },
+        {
+          "id": "miscExperience",
+          "label": "Parcours Divers",
+          "eyebrow": "MODULE // PARCOURS DIVERS",
+          "heading": "Expériences Divers",
+          "bullets": [
+            "[Auxiliaire de Vie] — [URSSAF Île-de-France], [Mai 2018 - Présent]",
+            "[Promoteur] — [Sony France/Districom], [Avr 2026 - Jul 2026]",
+            "[Commercial] — [Xiaomi France], [Déc 2021 - Aoû 2022]",
+            "[Animateur Jeunesse] — [City of Joinville-le-Pont], [Fév 2016 - Avr 2016]"
           ]
         }
       ]

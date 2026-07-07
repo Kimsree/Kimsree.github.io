@@ -24,7 +24,7 @@
     "tiles": [
       { "id": "profile",      "label": "Profile" },
       { "id": "research",     "label": "Research" },
-      { "id": "projects",     "label": "Projects" },
+      { "id": "projects",     "label": "Other Projects" },
       { "id": "publications", "label": "Publications" },
       { "id": "experience",   "label": "Work Experience" },
       { "id": "contact",      "label": "Contact" }
@@ -216,10 +216,9 @@
           "label": "Journal Papers",
           "eyebrow": "RECORD // JOURNAL",
           "heading": "Journal Papers",
-          "text": "List your peer-reviewed journal articles, most recent first.",
+          "text": "List of peer-reviewed journal articles.",
           "bullets": [
-            "[Authors]. \"[Title]\". [Journal], [Year]. [DOI/link]",
-            "[Authors]. \"[Title]\". [Journal], [Year]. [DOI/link]"
+            "[none]"
           ]
         },
         {
@@ -229,8 +228,7 @@
           "heading": "Conference Papers",
           "text": "List conference proceedings and talks.",
           "bullets": [
-            "[Authors]. \"[Title]\". [Conference], [Year]. [DOI/link]",
-            "[Authors]. \"[Title]\". [Conference], [Year]. [DOI/link]"
+            "[none]"
           ]
         },
         {
@@ -238,10 +236,9 @@
           "label": "Posters",
           "eyebrow": "RECORD // POSTER",
           "heading": "Posters",
-          "text": "List poster presentations at conferences or workshops.",
+          "text": "List of poster presentations at conferences or workshops.",
           "bullets": [
-            "[Title] — [Event], [Year]",
-            "[Title] — [Event], [Year]"
+            "[Prevalence of micronutrient deficiencies in 204 patients with head and neck cancers (hnc) admitted to a rehabilitation unit] — [Clinical Nutrition ESPEN], [2024]"
           ]
         },
         {
@@ -251,8 +248,8 @@
           "heading": "Preprints",
           "text": "List preprints not yet peer-reviewed.",
           "bullets": [
-            "[Authors]. \"[Title]\". [Repository], [Year]. [link]",
-            "[Authors]. \"[Title]\". [Repository], [Year]. [link]"
+            "[M. Guinhut et al.]. \"[Prevalence of micronutrient deficiencies in 465 patients with head and neck cancers (hnc) admitted to a rehabilitation unit]\". [Clinical Nutrition ESPEN], [2025]. [Manuscript under review]",
+            "[A.Konesalingam, S. Ravikanth, G. M. Machado, F. Belbachir, and A. Jaouadi]. \"[Stress detection with physiological signal from wrist-worn devices]\"., [2025]. [Unpublished manuscript]"
           ]
         }
       ]
@@ -261,15 +258,28 @@
       "title": "Work Experience",
       "tabs": [
         {
-          "id": "timeline",
-          "label": "Timeline",
-          "eyebrow": "MODULE // CAREER LOG",
-          "heading": "Work Experience",
-          "text": "List your positions from most recent to oldest, with dates and a short description of your responsibilities.",
+          "id": "technicalExperience",
+          "label": "Technical Experience",
+          "eyebrow": "MODULE // CAREER LOG TECHNICAL",
+          "heading": "Technical Experience",
           "bullets": [
-            "[Job title] — [Company], [Year–Year]: [one line description]",
-            "[Job title] — [Company], [Year–Year]: [one line description]",
-            "[Job title] — [Company], [Year–Year]: [one line description]"
+            "[Full Stack Engineer] — [Districom], [Apr 2026 - July 2026]: [Development of an mobile application for retail stock management for Sony France]",
+            "[Webmaster & Research Coordination] — [nutritionDay France], [Apr 2025 - Feb 2026]: [Creation and management of the French branch website for the international nutritionDay study]",
+            "[Junior biostatistician] — [Gustave Roussy], [Mar 2025 - Oct 2025]: [Statistical study on micronutrient deficiencies in head and neck cancer patients]",
+            "[Junior biostatistician] — [Gustave Roussy], [Apr 2024 - Sep 2024]: [Data preprocessing and statistical analysis of 204 oncology patients]",
+            "[Process Optimization Consultant] — [D-MUTE NETWORK], [Jan 2023 - Feb 2023]: [Design and development of APIs for enterprise resource management]"
+          ]
+        },
+        {
+          "id": "miscExperience",
+          "label": "Other experience",
+          "eyebrow": "MODULE // CAREER LOG MISC",
+          "heading": "Other Experience",
+          "bullets": [
+            "[Elderly Care Assistant] — [URSSAF Île-de-France], [May 2018 - Present]",
+            "[Product Promoter] — [Sony France/Districom], [Apr 2026 - July 2026]",
+            "[Sales Advisor] — [Xiaomi France], [Dec 2021 - Aug 2022]",
+            "[Animator] — [City of Joinville-le-Pont], [Feb 2016 - Apr 2016]"
           ]
         }
       ]
