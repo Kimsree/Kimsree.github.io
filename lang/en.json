@@ -171,7 +171,7 @@
           "id": "sonyStock",
           "label": "Sony Retail App",
           "eyebrow": "PROJECT // SONY RETAIL APP",
-          "heading": "[Mobile Application for Sony Retail Operations]",
+          "heading": "Mobile Application for Sony Retail Operations",
           "text": "Developed a mobile application for retail stock management for Sony France. Promoted Sony products through in-store technical demonstrations and provided customer guidance on product features and technologies.",
           "bullets": [
             "Role: [Full Stack Engineer]",
@@ -184,7 +184,7 @@
           "id": "NutritionDayFrance",
           "label": "NutritionDayFrance",
           "eyebrow": "PROJECT // NUTRITION FRANCE",
-          "heading": "[NutritionDay France]",
+          "heading": "NutritionDay France",
           "text": "Created and managed the French website for the international nutritionDay study. Adapted an international clinical research project to the French healthcare context. Provided technical maintenance and user support while coordinating national participation in a global epidemiological study.",
           "bullets": [
             "Role: [Webmaster & Research Coordination]",
@@ -197,7 +197,7 @@
           "id": "ECECUP",
           "label": "ECE CUP",
           "eyebrow": "PROJECT // ECE CUP",
-          "heading": "[ECE CUP]",
+          "heading": "ECE CUP",
           "text": "Developed an autonomous robotic platform based on an ESP32 microcontroller. Implemented real-time computer vision with OpenCV to detect and localize the robot, barrels, and opponents on the playing field. Designed path-planning and obstacle-avoidance algorithms for autonomous navigation. Integrated MQTT-based wireless communication for real-time monitoring and control. Competed in an autonomous robotics challenge involving barrel collection and delivery while avoiding collisions with opponents and obstacles.",
           "bullets": [
             "Role: [Student]",

@@ -171,8 +171,8 @@
           "id": "sonyStock",
           "label": "Application Retail Sony",
           "eyebrow": "PROJET // APPLICATION RETAIL SONY",
-          "heading": "[Application mobile pour les opérations Retail de Sony]",
-          "text": "Développement d’une application mobile de gestion des stocks destinée aux magasins Sony France. Promotion des produits Sony par des démonstrations techniques en magasin et accompagnement des clients sur les caractéristiques et technologies des produits.",
+          "heading": "Application mobile pour les opérations Retail de Sony",
+          "text": "Développement d'une application mobile de gestion des stocks destinée aux magasins Sony France. Promotion des produits Sony par des démonstrations techniques en magasin et accompagnement des clients sur les caractéristiques et technologies des produits.",
           "bullets": [
             "Rôle : [Ingénieur Full Stack]",
             "Technologies / outils : [Flutter/Dart]",
@@ -184,8 +184,8 @@
           "id": "NutritionDayFrance",
           "label": "NutritionDay France",
           "eyebrow": "PROJET // NUTRITION FRANCE",
-          "heading": "[NutritionDay France]",
-          "text": "Création et gestion du site web français de l’étude internationale nutritionDay. Adaptation d’un projet international de recherche clinique au contexte du système de santé français. Maintenance technique du site, assistance aux utilisateurs et coordination de la participation nationale à une étude épidémiologique internationale.",
+          "heading": "NutritionDay France",
+          "text": "Création et gestion du site web français de l'étude internationale nutritionDay. Adaptation d’un projet international de recherche clinique au contexte du système de santé français. Maintenance technique du site, assistance aux utilisateurs et coordination de la participation nationale à une étude épidémiologique internationale.",
           "bullets": [
             "Rôle : [Webmaster & Coordination de la recherche]",
             "Technologies / outils : [HTML, CSS, JavaScript, PHP, WordPress, Hostinger, phpMyAdmin, MySQL]",
