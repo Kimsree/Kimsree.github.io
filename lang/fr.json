@@ -290,6 +290,7 @@
         {
           "id": "main",
           "label": "Contactez-moi",
+          "image": "assets/images/aoNoExorcist.jpeg",
           "eyebrow": "MODULE // LIAISON",
           "heading": "Contact",
           "text": "Ouvrez un canal — les meilleurs moyens de joindre l'opérateur sont listés ci-dessous.",

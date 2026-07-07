@@ -290,6 +290,7 @@
         {
           "id": "main",
           "label": "Get in Touch",
+          "image": "assets/images/aoNoExorcist.jpeg",
           "eyebrow": "MODULE // UPLINK",
           "heading": "Contact",
           "text": "Open a channel — the best ways to reach the operator are listed below.",
